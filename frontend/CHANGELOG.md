@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.18.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.17.1...v1.18.0-rc) (2025-06-28)
+
+
+### Features
+
+* new fest ([0137c99](https://github.com/ddennis/release-please-prerelease-example/commit/0137c992aece39375a1497faf1059cfe88c8d23e))
+
 ## [1.17.1](https://github.com/ddennis/release-please-prerelease-example/compare/v1.17.0...v1.17.1) (2025-06-28)
 
 
