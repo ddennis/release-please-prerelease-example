@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.20.1](https://github.com/ddennis/release-please-prerelease-example/compare/v1.20.0...v1.20.1) (2025-06-28)
+
+
+### Bug Fixes
+
+* align num ([29a2070](https://github.com/ddennis/release-please-prerelease-example/commit/29a2070b3e6cd87b2e021f6ee9875b0bd06bee63))
+* set node tyep for config ([557c62f](https://github.com/ddennis/release-please-prerelease-example/commit/557c62f9c5cb646855f24fc257bbad003691f91a))
+* some fix ([7dbd18c](https://github.com/ddennis/release-please-prerelease-example/commit/7dbd18ca0b4670a7a3dd634d4265eea64fd168e7))
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.20.1-rc ([39b06f0](https://github.com/ddennis/release-please-prerelease-example/commit/39b06f03165c049eab6883387112a6a983f60a26))
+* **main:** release 1.20.1-rc ([39b06f0](https://github.com/ddennis/release-please-prerelease-example/commit/39b06f03165c049eab6883387112a6a983f60a26))
+* **main:** release 1.20.1-rc ([f07ced4](https://github.com/ddennis/release-please-prerelease-example/commit/f07ced4f837d69371aa624157aad93be43209b46))
+
 ## [1.20.1-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.20.0...v1.20.1-rc) (2025-06-28)
 
 
