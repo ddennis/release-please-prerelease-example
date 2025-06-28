@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.17.0-rc.1](https://github.com/ddennis/release-please-prerelease-example/compare/v1.17.0-rc...v1.17.0-rc.1) (2025-06-28)
+
+
+### Bug Fixes
+
+* v file in frontend folder ([cd84d22](https://github.com/ddennis/release-please-prerelease-example/commit/cd84d227c4e0c546082162bdcd1c7666f12b7d20))
+
 ## [1.17.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.16.3...v1.17.0-rc) (2025-06-28)
 
 
