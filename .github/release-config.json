@@ -16,7 +16,13 @@
           "type": "json",
           "path": ".github/prerelease-manifest.json",
           "jsonpath": "$[\".\"]"
+        },
+        {
+          "type": "json",
+          "path": "package.json",
+          "jsonpath": "$.version"
         }
+              
       ]
     }
   }
