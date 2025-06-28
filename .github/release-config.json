@@ -15,12 +15,12 @@
       "extra-files": [       
         {
           "type": "json",
-          "path": ".github/prerelease-manifest.json",
+          "path": "../.github/prerelease-manifest.json",
           "jsonpath": "$[\"frontend\"]"
         },        
         {
           "type": "json",
-          "path": "frontend/package.json",
+          "path": "package.json",
           "jsonpath": "$.version"
         }              
       ]
