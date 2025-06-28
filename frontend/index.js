@@ -1,1 +1,1 @@
-console.log(" version asdsad 26 ")
+console.log(" version asdsad 26 --")
