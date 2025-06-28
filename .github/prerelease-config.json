@@ -13,13 +13,7 @@
   ],
   "packages": {
     ".": {
-      "type": "generic",
-      "extra-files": [
-        {
-          "type": "generic",
-          "path": "library/build.gradle.kts"
-        }
-      ]
+      "type": "generic"      
     }
   }
 }
