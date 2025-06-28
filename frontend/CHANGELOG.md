@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.18.0-rc.1](https://github.com/ddennis/release-please-prerelease-example/compare/v1.18.0-rc...v1.18.0-rc.1) (2025-06-28)
+
+
+### Bug Fixes
+
+* new path ([fbd648a](https://github.com/ddennis/release-please-prerelease-example/commit/fbd648a51cbd529be6a59b4034ba9a673f5bc187))
+
 ## [1.18.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.17.1...v1.18.0-rc) (2025-06-28)
 
 
