@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.20.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.19.0...v1.20.0) (2025-06-28)
+
+
+### Features
+
+* anothe feay ([19582e6](https://github.com/ddennis/release-please-prerelease-example/commit/19582e6a0ee99caa670af671ed5c438805c409a7))
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.20.0-rc ([7b17f73](https://github.com/ddennis/release-please-prerelease-example/commit/7b17f73825b57542db1529e497133477e2ad5c51))
+* **main:** release 1.20.0-rc ([7b17f73](https://github.com/ddennis/release-please-prerelease-example/commit/7b17f73825b57542db1529e497133477e2ad5c51))
+* **main:** release 1.20.0-rc ([6cf729d](https://github.com/ddennis/release-please-prerelease-example/commit/6cf729d1ab92c889fff1155303b7952faab001a1))
+
 ## [1.20.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.19.0...v1.20.0-rc) (2025-06-28)
 
 
