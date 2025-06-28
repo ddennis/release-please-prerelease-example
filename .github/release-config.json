@@ -11,8 +11,13 @@
   "packages": {
     
     "frontend":{
-      "type": "generic",
-      "extra-files": [               
+      "type": "node",
+      "extra-files": [ 
+        {
+          "type": "json",
+          "path": ".github/prerelease-manifest.json",
+          "jsonpath": "$[\"frontend\"]"
+        }  ,              
         {
           "type": "json",
           "path": "package.json",
@@ -20,13 +25,7 @@
         }              
       ]
     }
-  },
+  }
 
-  "extra-files": [       
-        {
-          "type": "json",
-          "path": ".github/prerelease-manifest.json",
-          "jsonpath": "$[\"frontend\"]"
-        }        
-      ]
+ 
 }
