@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.18.1](https://github.com/ddennis/release-please-prerelease-example/compare/v1.18.0...v1.18.1) (2025-06-28)
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.18.0-rc.2 ([c725d0b](https://github.com/ddennis/release-please-prerelease-example/commit/c725d0b7b4a874d68525e0761f30d288f96eb11e))
+* **main:** release 1.18.0-rc.2 ([c725d0b](https://github.com/ddennis/release-please-prerelease-example/commit/c725d0b7b4a874d68525e0761f30d288f96eb11e))
+* **main:** release 1.18.0-rc.2 ([0951f8d](https://github.com/ddennis/release-please-prerelease-example/commit/0951f8df1ca3a74e9ef2c642e4a8c3c1d6d47b85))
+* **main:** release 1.18.0-rc.3 ([3739b77](https://github.com/ddennis/release-please-prerelease-example/commit/3739b77bc9e6090f0fd46bc21662d546a3f1bbbe))
+* **main:** release 1.18.0-rc.3 ([29d2852](https://github.com/ddennis/release-please-prerelease-example/commit/29d2852dfa8b3b47c01b9846dae07c8a535155b9))
+
 ## [1.18.0-rc.3](https://github.com/ddennis/release-please-prerelease-example/compare/v1.18.0-rc.2...v1.18.0-rc.3) (2025-06-28)
 
 
