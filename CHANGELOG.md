@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.12.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.11.0...v1.12.0-rc) (2025-06-28)
+
+
+### Features
+
+* new feature 22 ([41c2f28](https://github.com/ddennis/release-please-prerelease-example/commit/41c2f28176f254158cafae842e2bcd4d5fa02e99))
+
+
+### Bug Fixes
+
+* action not run ([102c3fd](https://github.com/ddennis/release-please-prerelease-example/commit/102c3fdd28a494019b95dc7d19ae6be15ad5899c))
+
 ## [1.11.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.10.2...v1.11.0) (2025-06-28)
 
 
