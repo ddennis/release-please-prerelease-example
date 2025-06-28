@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.18.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.17.1...v1.18.0) (2025-06-28)
+
+
+### Features
+
+* new fest ([0137c99](https://github.com/ddennis/release-please-prerelease-example/commit/0137c992aece39375a1497faf1059cfe88c8d23e))
+
+
+### Bug Fixes
+
+* new path ([fbd648a](https://github.com/ddennis/release-please-prerelease-example/commit/fbd648a51cbd529be6a59b4034ba9a673f5bc187))
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.18.0-rc ([4b6be99](https://github.com/ddennis/release-please-prerelease-example/commit/4b6be993c42cf09585c7a701d9914e4174310b2e))
+* **main:** release 1.18.0-rc ([44afaf2](https://github.com/ddennis/release-please-prerelease-example/commit/44afaf227f826b4a44215debae94560a76621e55))
+* **main:** release 1.18.0-rc.1 ([a373a39](https://github.com/ddennis/release-please-prerelease-example/commit/a373a393c4436d1885f22bb0596744f9c86c2d2f))
+* **main:** release 1.18.0-rc.1 ([a373a39](https://github.com/ddennis/release-please-prerelease-example/commit/a373a393c4436d1885f22bb0596744f9c86c2d2f))
+* **main:** release 1.18.0-rc.1 ([ad41cb2](https://github.com/ddennis/release-please-prerelease-example/commit/ad41cb2491aa175a03786c4c3038db5fc3035f17))
+
 ## [1.18.0-rc.1](https://github.com/ddennis/release-please-prerelease-example/compare/v1.18.0-rc...v1.18.0-rc.1) (2025-06-28)
 
 
