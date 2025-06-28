@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.20.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.19.0...v1.20.0-rc) (2025-06-28)
+
+
+### Features
+
+* anothe feay ([19582e6](https://github.com/ddennis/release-please-prerelease-example/commit/19582e6a0ee99caa670af671ed5c438805c409a7))
+
 ## [1.19.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.18.1...v1.19.0) (2025-06-28)
 
 
