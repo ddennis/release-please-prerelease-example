@@ -1,0 +1,28 @@
+{
+  "name": "epro-backend",
+  "version": "1.13.0",
+  "private": true,
+  "engines": {
+    "npm": ">=9.0.0",
+    "node": ">=18.16.0"
+  },
+  "scripts": {
+    "build": "node ./src/index.js",
+    "start": "node index.js",
+    "dev": "nodemon",
+    "vitest": "vitest --watch --config=./vite.config.ts",
+    "vitest:ci": "vitest --config=./vite.config.ci.ts",
+    "test:integration": "vitest --watch --config=./vite.config.ts",
+    "test:old_integration": "jest --watch --config=src/test/jest.integration.config.js",
+    "test:unit": "jest --watch --testMatch=**/test/unit/**.test.[jt]s?(x)",
+    "test:watch": "jest --watch",
+    "devts": "tsc --project ./tsconfig.json --watch && nodemon dist",
+    "lint": "eslint src/**/*.ts --fix",
+    "ts": "tsc --project ./tsconfig.json --watch",
+    "vite": "vite",
+    "deves": "etsc"
+  },
+  "dependencies": {
+    "dotenv-cli": "^8.0.0"
+  }
+}
