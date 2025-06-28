@@ -11,11 +11,7 @@
   "packages": {
     ".": {
       "type": "generic",
-      "extra-files": [
-        {
-          "type": "generic",
-          "path": "library/build.gradle.kts"
-        },
+      "extra-files": [       
         {
           "type": "json",
           "path": ".github/prerelease-manifest.json",
