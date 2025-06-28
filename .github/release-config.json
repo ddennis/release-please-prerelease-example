@@ -1,5 +1,5 @@
 {
-  "release-type": "node",
+  "release-type": "simple",
   "changelog-sections": [
     { "type": "feat", "hidden": false, "section": "Features" },
     { "type": "fix", "hidden": false, "section": "Bug Fixes" },
@@ -11,7 +11,7 @@
   "packages": {
     
     "frontend":{
-      "type": "node",
+      "type": "generic",
       "extra-files": [ 
         {
           "type": "json",
