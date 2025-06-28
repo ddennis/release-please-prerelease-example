@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.17.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.16.3...v1.17.0) (2025-06-28)
+
+
+### Features
+
+* feature 20 ([9d8cee5](https://github.com/ddennis/release-please-prerelease-example/commit/9d8cee58b049de2d51a927e084180046182a6f7d))
+
+
+### Bug Fixes
+
+* v file in frontend folder ([cd84d22](https://github.com/ddennis/release-please-prerelease-example/commit/cd84d227c4e0c546082162bdcd1c7666f12b7d20))
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.17.0-rc ([79ba842](https://github.com/ddennis/release-please-prerelease-example/commit/79ba84274e928d0da4688b50a6fc00b8b2325c92))
+* **main:** release 1.17.0-rc ([79ba842](https://github.com/ddennis/release-please-prerelease-example/commit/79ba84274e928d0da4688b50a6fc00b8b2325c92))
+* **main:** release 1.17.0-rc ([d22b4a4](https://github.com/ddennis/release-please-prerelease-example/commit/d22b4a48595dfb1297502f2f7681cb43d10c3e32))
+* **main:** release 1.17.0-rc.1 ([75cbc9b](https://github.com/ddennis/release-please-prerelease-example/commit/75cbc9beb400676466329175dbc4b8f90740186b))
+* **main:** release 1.17.0-rc.1 ([75cbc9b](https://github.com/ddennis/release-please-prerelease-example/commit/75cbc9beb400676466329175dbc4b8f90740186b))
+* **main:** release 1.17.0-rc.1 ([a066b6d](https://github.com/ddennis/release-please-prerelease-example/commit/a066b6db278e66085fd667996358a1569db08dc4))
+
 ## [1.17.0-rc.1](https://github.com/ddennis/release-please-prerelease-example/compare/v1.17.0-rc...v1.17.0-rc.1) (2025-06-28)
 
 
