@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.15.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.14.0...v1.15.0) (2025-06-28)
+
+
+### Features
+
+* frontend added ([56ee095](https://github.com/ddennis/release-please-prerelease-example/commit/56ee0957f738a0b1922ea6a99d8452b2107e7f5c))
+
+
+### Miscellaneous Chores
+
+* release main ([0a4eda0](https://github.com/ddennis/release-please-prerelease-example/commit/0a4eda051fcb4b7592dfde500f64fb6d3e904cda))
+* release main ([a83efcb](https://github.com/ddennis/release-please-prerelease-example/commit/a83efcbb7ab3ac41d8388f4f6ae8e869c74ccf48))
+
 ## [1.15.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.14.0...v1.15.0-rc) (2025-06-28)
 
 
