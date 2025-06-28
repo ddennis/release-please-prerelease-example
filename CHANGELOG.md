@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.13.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.12.0...v1.13.0-rc) (2025-06-28)
+
+
+### Features
+
+* update version in package ([512fa48](https://github.com/ddennis/release-please-prerelease-example/commit/512fa48881771b8805ec96692681131bbabf83d9))
+
+
+### Miscellaneous Chores
+
+* add dummy package.json ([2716a64](https://github.com/ddennis/release-please-prerelease-example/commit/2716a64ba95220645cae238762a3754d99f4e0e9))
+
 ## [1.12.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.11.0...v1.12.0) (2025-06-28)
 
 
