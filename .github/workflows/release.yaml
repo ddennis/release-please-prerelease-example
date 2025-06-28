@@ -43,7 +43,9 @@ jobs:
     needs: [ label-check ]
     outputs:
       releases_created: ${{ steps.release.outputs.releases_created }}
-      tag_name: ${{ steps.release.outputs.tag_name }}
+      # tag_name: ${{ steps.release.outputs.tag_name }}
+      tag_name: ${{ ( contains(steps.release.outputs.frontend--tag_name, 'rc') || contains(steps.release.outputs.backend--tag_name, 'rc')) && 'rc' || 'not detected' }}
+      
     steps:
       - id: release
         name: Run prerelease release-please
@@ -52,6 +54,9 @@ jobs:
           config-file: ".github/prerelease-config.json"
           manifest-file: ".github/prerelease-manifest.json"
           #token: ${{ secrets.MY_RELEASE_PLEASE_TOKEN }}
+
+      - name: Print All Release-Please Outputs
+        run: echo '${{ toJSON(steps.release.outputs) }}'
 
   # This job runs tests before the creation of the prerelease
   prerelease-test:
