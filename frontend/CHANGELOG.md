@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.24.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.23.0...v1.24.0) (2025-06-29)
+
+
+### Features
+
+* new versius22 ([94909ec](https://github.com/ddennis/release-please-prerelease-example/commit/94909ec6a2adeee6c740f32b6d05d49142e64fe6))
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.24.0-rc ([4c0cbf2](https://github.com/ddennis/release-please-prerelease-example/commit/4c0cbf2ad2835ed76b112f27152be2acc4321267))
+* **main:** release 1.24.0-rc ([4c0cbf2](https://github.com/ddennis/release-please-prerelease-example/commit/4c0cbf2ad2835ed76b112f27152be2acc4321267))
+* **main:** release 1.24.0-rc ([3552a9e](https://github.com/ddennis/release-please-prerelease-example/commit/3552a9e202568a9da9bfeb56f0b117a72bd26efa))
+
 ## [1.24.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.23.0...v1.24.0-rc) (2025-06-29)
 
 
