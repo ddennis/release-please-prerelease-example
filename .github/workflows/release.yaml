@@ -45,7 +45,8 @@ jobs:
       releases_created: ${{ steps.release.outputs.releases_created }}
       # tag_name: ${{ steps.release.outputs.tag_name }}
       tag_name: ${{ ( contains(steps.release.outputs.frontend--tag_name, 'rc') || contains(steps.release.outputs.backend--tag_name, 'rc')) && 'rc' || 'not detected' }}
-      
+      frontend_version: ${{ steps.release.outputs.frontend--version }} 
+
     steps:
       - id: release
         name: Run prerelease release-please
@@ -117,3 +118,19 @@ jobs:
       - name: Post Release Step
         run: |
           echo "Running post-release steps!"
+      - name: Update manifest
+        run: |
+          # Read the JSON file and update the frontend value
+          content=$(cat .release-please-manifest.json)
+          # echo "$content" | jq '.frontend = "testing"' > .release-please-manifest.json
+          echo "$content" | jq --arg version "${{ needs.prerelease-prep.outputs.frontend_version }}" '.frontend = $version' > .release-please-manifest.json
+          
+          # Configure git
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          
+          # Commit and push the changes
+          git add .release-please-manifest.json          
+          git commit -m "chore: sync release manifests"
+          git push
+
