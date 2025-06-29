@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.25.0-rc.1](https://github.com/ddennis/release-please-prerelease-example/compare/v1.25.0-rc...v1.25.0-rc.1) (2025-06-29)
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.25.0 ([3f065b0](https://github.com/ddennis/release-please-prerelease-example/commit/3f065b01898097a71e0093fb62ad3c0c3d1f8725))
+* **main:** release 1.25.0 ([3f065b0](https://github.com/ddennis/release-please-prerelease-example/commit/3f065b01898097a71e0093fb62ad3c0c3d1f8725))
+* **main:** release 1.25.0 ([e0eb5de](https://github.com/ddennis/release-please-prerelease-example/commit/e0eb5de4812cdb9156854f4d37a6bdcbb96508f0))
+
 ## [1.25.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.24.0...v1.25.0) (2025-06-29)
 
 
