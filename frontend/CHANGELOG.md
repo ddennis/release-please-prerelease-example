@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.27.1](https://github.com/ddennis/release-please-prerelease-example/compare/v1.27.0...v1.27.1) (2025-06-29)
+
+
+### Bug Fixes
+
+* and a change ([bdd9a83](https://github.com/ddennis/release-please-prerelease-example/commit/bdd9a834bf9f5912adf6d73fa869eda97ff34a18))
+* the path ([eee6d2b](https://github.com/ddennis/release-please-prerelease-example/commit/eee6d2b17d0ab40d18efa001507f1664a61ab669))
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.27.1-rc ([0ab8809](https://github.com/ddennis/release-please-prerelease-example/commit/0ab880994d378c009a41c648ee7f6b54166b51e2))
+* **main:** release 1.27.1-rc ([0ab8809](https://github.com/ddennis/release-please-prerelease-example/commit/0ab880994d378c009a41c648ee7f6b54166b51e2))
+* **main:** release 1.27.1-rc ([55ddf08](https://github.com/ddennis/release-please-prerelease-example/commit/55ddf0834504c84af13a8f41461bd7a2b8bd3467))
+
 ## [1.27.1-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.27.0...v1.27.1-rc) (2025-06-29)
 
 
