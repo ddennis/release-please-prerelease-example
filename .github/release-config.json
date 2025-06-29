@@ -17,12 +17,16 @@
           "type": "json",
           "path": ".github/prerelease-manifest.json",
           "jsonpath": "$[\"frontend\"]"
-        }  ,              
+        },              
         {
           "type": "json",
           "path": "package.json",
           "jsonpath": "$.version"
-        }              
+        }    ,  
+        {
+      "type": "generic",
+      "path": "frontend/version.txt"
+    }         
       ]
     }
   }
