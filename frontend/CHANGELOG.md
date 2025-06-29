@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.27.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.26.0...v1.27.0-rc) (2025-06-29)
+
+
+### Features
+
+* new should be 1.27 ([36290d5](https://github.com/ddennis/release-please-prerelease-example/commit/36290d562098f82d00d53e6c91dc4db5e20a1017))
+
 ## [1.26.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.25.0...v1.26.0) (2025-06-29)
 
 
