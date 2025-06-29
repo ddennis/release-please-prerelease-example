@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.24.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.23.0...v1.24.0-rc) (2025-06-29)
+
+
+### Features
+
+* new versius22 ([94909ec](https://github.com/ddennis/release-please-prerelease-example/commit/94909ec6a2adeee6c740f32b6d05d49142e64fe6))
+
 ## [1.23.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.22.0...v1.23.0) (2025-06-29)
 
 
