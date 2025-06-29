@@ -113,7 +113,7 @@ jobs:
   post-release:
     name: Post Release Steps
     runs-on: ubuntu-latest
-    needs: [ release ]
+    needs: [ release,prerelease-prep ]
     steps:
       - name: Post Release Step
         run: |
@@ -130,23 +130,27 @@ jobs:
 
       - name: Update manifest
         run: |
-          # Read the JSON file and update the frontend value
-          content=$(cat .github/prerelease-manifest.json)          
-          
-          echo "$content" | jq --arg version "${{ needs.prerelease-prep.outputs.frontend_version }}" '.frontend = $version' > .github/prerelease-manifest.json
-          
-          # Read the JSON file and update the frontend value with the output from previous step
+          # Read and update with detailed error checking
           content=$(cat .github/prerelease-manifest.json)
-
-          echo "$content" | jq --arg version "${{ needs.prerelease-prep.outputs.frontend_version }}" '.frontend = $version' > .github/prerelease-manifest.json
-
-
-          # Configure git
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
+          echo "Current content: $content"
           
-          # Commit and push the changes
-          git add .github/prerelease-manifest.json          
-          git commit -m "chore: sync release manifests"
-          git push
-
+          updated_content=$(echo "$content" | jq -r --arg version "${{ needs.prerelease-prep.outputs.frontend_version }}" \
+            'if .frontend != null then .frontend = $version else . end')
+          
+          echo "Updated content: $updated_content"
+          
+          # Verify we have valid JSON before writing
+          if echo "$updated_content" | jq empty; then
+            echo "$updated_content" > .github/prerelease-manifest.json
+            
+            # Configure git
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git config --global user.name "github-actions[bot]"
+            
+            git add .github/prerelease-manifest.json
+            git commit -m "chore: update manifest frontend version"
+            git push
+          else
+            echo "Error: Invalid JSON would be produced"
+            exit 1
+          fi
