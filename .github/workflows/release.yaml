@@ -121,16 +121,17 @@ jobs:
       - name: Update manifest
         run: |
           # Read the JSON file and update the frontend value
-          content=$(cat .release-please-manifest.json)
-          # echo "$content" | jq '.frontend = "testing"' > .release-please-manifest.json
-          echo "$content" | jq --arg version "${{ needs.prerelease-prep.outputs.frontend_version }}" '.frontend = $version' > .release-please-manifest.json
+          content=$(cat .github/prerelease-manifest.json)
+          # echo "$content" | jq '.frontend = "testing"' > .github/prerelease-manifest.json
+          echo "$content" | jq --arg version "${{ needs.prerelease-prep.outputs.frontend_version }}" '.frontend = $version' > .github/prerelease-manifest.json
+          
           
           # Configure git
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           
           # Commit and push the changes
-          git add .release-please-manifest.json          
+          git add .github/prerelease-manifest.json          
           git commit -m "chore: sync release manifests"
           git push
 
