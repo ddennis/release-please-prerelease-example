@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.27.1-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.27.0...v1.27.1-rc) (2025-06-29)
+
+
+### Bug Fixes
+
+* and a change ([bdd9a83](https://github.com/ddennis/release-please-prerelease-example/commit/bdd9a834bf9f5912adf6d73fa869eda97ff34a18))
+* the path ([eee6d2b](https://github.com/ddennis/release-please-prerelease-example/commit/eee6d2b17d0ab40d18efa001507f1664a61ab669))
+
 ## [1.27.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.26.0...v1.27.0) (2025-06-29)
 
 
