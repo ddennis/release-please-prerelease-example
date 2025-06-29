@@ -120,6 +120,9 @@ jobs:
           echo "Running post-release steps!"
           echo '${{ needs.prerelease-prep.outputs.frontend_version }}'
 
+      - name: Print debug
+        run: echo '${{ needs.prerelease-prep.outputs.frontend_version }}'
+
 
       - name: Checkout
         uses: actions/checkout@v4
