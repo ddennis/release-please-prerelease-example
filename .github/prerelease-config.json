@@ -14,7 +14,8 @@
   "packages": {
     
     "frontend": {
-      "type": "generic"      
+      "type": "generic",
+      "version-file": "version.txt"
     }
   }
 }
