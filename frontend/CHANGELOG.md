@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.28.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.27.1...v1.28.0) (2025-06-29)
+
+
+### Features
+
+* new versio ([c9f8bde](https://github.com/ddennis/release-please-prerelease-example/commit/c9f8bdef83e7d85ecb89ee913b461d688ea81c94))
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.28.0-rc ([893139c](https://github.com/ddennis/release-please-prerelease-example/commit/893139c53b18d3745971dc0133d192b8659a8b32))
+* **main:** release 1.28.0-rc ([cffc191](https://github.com/ddennis/release-please-prerelease-example/commit/cffc191dba9fac46e9c89522716e9b2a407cb949))
+
 ## [1.28.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.27.1...v1.28.0-rc) (2025-06-29)
 
 
