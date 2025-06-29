@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.28.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.27.1...v1.28.0-rc) (2025-06-29)
+
+
+### Features
+
+* new versio ([c9f8bde](https://github.com/ddennis/release-please-prerelease-example/commit/c9f8bdef83e7d85ecb89ee913b461d688ea81c94))
+
 ## [1.27.1](https://github.com/ddennis/release-please-prerelease-example/compare/v1.27.0...v1.27.1) (2025-06-29)
 
 
