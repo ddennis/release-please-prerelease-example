@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.31.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.30.0...v1.31.0) (2025-07-03)
+
+
+### Features
+
+* auto to 31 ([3ecf028](https://github.com/ddennis/release-please-prerelease-example/commit/3ecf02886d1bde1345d48188920460a4d0cf37bd))
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.31.0-rc ([c958614](https://github.com/ddennis/release-please-prerelease-example/commit/c9586146260bf1817b5b881490932d703af3cd00))
+* **main:** release 1.31.0-rc ([#76](https://github.com/ddennis/release-please-prerelease-example/issues/76)) ([1f6570d](https://github.com/ddennis/release-please-prerelease-example/commit/1f6570d037e8c001b547e3e1c3d553e045f0a6ec))
+
 ## [1.31.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.30.0...v1.31.0-rc) (2025-07-03)
 
 
