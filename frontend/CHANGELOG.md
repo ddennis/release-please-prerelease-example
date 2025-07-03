@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.31.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.30.0...v1.31.0-rc) (2025-07-03)
+
+
+### Features
+
+* auto to 31 ([3ecf028](https://github.com/ddennis/release-please-prerelease-example/commit/3ecf02886d1bde1345d48188920460a4d0cf37bd))
+
 ## [1.30.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.29.0...v1.30.0) (2025-06-29)
 
 
