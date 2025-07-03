@@ -17,7 +17,7 @@
          {
           "type": "json",
           "path": "..\\/.github/prerelease-manifest.json",          
-          "jsonpath": "$[\"frontend\"]"
+          "jsonpath": "$.frontend"
         },              
         {
           "type": "json",
