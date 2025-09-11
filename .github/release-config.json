@@ -11,19 +11,14 @@
   "packages": {
     
     "frontend":{
-      "type": "generic",
+      "type": "node",
       "version-file": "version.txt",
       "extra-files": [ 
          {
           "type": "json",
           "path": "..\\/.github/prerelease-manifest.json",          
           "jsonpath": "$.frontend"
-        },              
-        {
-          "type": "json",
-          "path": "package.json",
-          "jsonpath": "$.version"
-        }               
+        },                                  
       ]
     }
   }
