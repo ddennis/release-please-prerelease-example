@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.34.1-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.34.0...v1.34.1-rc) (2025-09-11)
+
+
+### Bug Fixes
+
+* 555 no version file ([b39720a](https://github.com/ddennis/release-please-prerelease-example/commit/b39720a624b0e7b8d14c0be1889add611a06a91c))
+
 ## [1.34.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.33.0...v1.34.0) (2025-09-11)
 
 
