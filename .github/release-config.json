@@ -1,27 +1,48 @@
 {
-  "release-type": "simple",
-  "changelog-sections": [
-    { "type": "feat", "hidden": false, "section": "Features" },
-    { "type": "fix", "hidden": false, "section": "Bug Fixes" },
-    { "type": "refactor", "hidden": false, "section": "Code Refactoring" },
-    { "type": "chore", "hidden": false, "section": "Miscellaneous Chores" },
-    { "type": "build", "hidden": false, "section": "Build System and Dependencies" },
-    { "type": "docs", "hidden": false, "section": "Docs" }
-  ],
-  "packages": {
-    
-    "frontend":{
-      "type": "node",
-      "version-file": "version.txt",
-      "extra-files": [ 
-         {
-          "type": "json",
-          "path": "..\\/.github/prerelease-manifest.json",          
-          "jsonpath": "$.frontend"
-        },                                  
-      ]
-    }
-  }
-
- 
+   "release-type":"simple",
+   "changelog-sections":[
+      {
+         "type":"feat",
+         "hidden":false,
+         "section":"Features"
+      },
+      {
+         "type":"fix",
+         "hidden":false,
+         "section":"Bug Fixes"
+      },
+      {
+         "type":"refactor",
+         "hidden":false,
+         "section":"Code Refactoring"
+      },
+      {
+         "type":"chore",
+         "hidden":false,
+         "section":"Miscellaneous Chores"
+      },
+      {
+         "type":"build",
+         "hidden":false,
+         "section":"Build System and Dependencies"
+      },
+      {
+         "type":"docs",
+         "hidden":false,
+         "section":"Docs"
+      }
+   ],
+   "packages":{
+      "frontend":{
+         "type":"node",
+         "version-file":"version.txt",
+         "extra-files":[
+            {
+               "type":"json",
+               "path":"..\\/.github/prerelease-manifest.json",
+               "jsonpath":"$.frontend"
+            }
+         ]
+      }
+   }
 }
