@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.34.0-rc.1](https://github.com/ddennis/release-please-prerelease-example/compare/v1.34.0-rc...v1.34.0-rc.1) (2025-09-11)
+
+
+### Miscellaneous Chores
+
+* **main:** release 1.34.0 ([33521de](https://github.com/ddennis/release-please-prerelease-example/commit/33521deeda73a47912a4f24fe561f30fc0367671))
+* **main:** release 1.34.0 ([#85](https://github.com/ddennis/release-please-prerelease-example/issues/85)) ([5cd7318](https://github.com/ddennis/release-please-prerelease-example/commit/5cd731887356fa6356d84b6ffe56297be7fdf9ac))
+
 ## [1.34.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.33.0...v1.34.0) (2025-09-11)
 
 
