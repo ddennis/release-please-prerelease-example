@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.32.0-rc.2](https://github.com/ddennis/release-please-prerelease-example/compare/v1.32.0-rc.1...v1.32.0-rc.2) (2025-09-11)
+
+
+### Bug Fixes
+
+* a fix 444 ([09d8c6c](https://github.com/ddennis/release-please-prerelease-example/commit/09d8c6c764ddffb96bf98578469875380f82a7f9))
+
+
+### Miscellaneous Chores
+
+* **main:** release frontend 1.33.0 ([e227956](https://github.com/ddennis/release-please-prerelease-example/commit/e227956d18f6f2cb4ab8bc55a66acb1da8fc911b))
+* **main:** release frontend 1.33.0 ([fc26515](https://github.com/ddennis/release-please-prerelease-example/commit/fc2651557e1b89be261067b3448ed9acb177628e))
+
 ## [1.33.0](https://github.com/ddennis/release-please-prerelease-example/compare/frontend-v1.32.0...frontend-v1.33.0) (2025-09-11)
 
 
