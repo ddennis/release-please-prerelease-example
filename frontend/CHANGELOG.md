@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.32.0-rc](https://github.com/ddennis/release-please-prerelease-example/compare/v1.31.0...v1.32.0-rc) (2025-09-11)
+
+
+### Features
+
+* some feat ([8613943](https://github.com/ddennis/release-please-prerelease-example/commit/86139435983dd6761edf853394a4c31e997adbd1))
+
+
+### Bug Fixes
+
+* new fix 111 ([8de01b8](https://github.com/ddennis/release-please-prerelease-example/commit/8de01b8cbe30f5e7f457fdd1b0c38fb29b61d5f2))
+
 ## [1.31.0](https://github.com/ddennis/release-please-prerelease-example/compare/v1.30.0...v1.31.0) (2025-07-03)
 
 
